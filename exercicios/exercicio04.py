@@ -2,9 +2,9 @@
 
 def par(n): 
     if n % 2 == 0:
-        print ('Esse valor é par')
+        print (f'O numero{num} é par')
     else:
-        print('Esse numero é impar')
+        print(f'O numero{num} é impar')
 
 num=int(input('Digite um numero: '))
 par(num)
