@@ -36,7 +36,8 @@ def consultaCEP(cep):
     viacep = f'https://viacep.com.br/ws/{cep}/json'
     req = requests.get(viacep).text
     #conteudo = json.loads(req.content)
-    return req
+    reqjson = json.loads(req)
+    return reqjson
 
 main()
 
